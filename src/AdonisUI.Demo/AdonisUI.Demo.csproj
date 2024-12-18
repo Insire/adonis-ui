@@ -30,6 +30,7 @@
     <PublishReadyToRun>true</PublishReadyToRun>
     <PublishSingleFile>false</PublishSingleFile>
     <NoWarn>CS1591</NoWarn>
+    <Nullable>annotations</Nullable>
   </PropertyGroup>
 
   <ItemGroup>

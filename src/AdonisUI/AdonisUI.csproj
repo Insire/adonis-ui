@@ -32,6 +32,7 @@
   </ItemGroup>
   <PropertyGroup>
     <PackageIcon>favicon-256x256.png</PackageIcon>
+    <Nullable>annotations</Nullable>
   </PropertyGroup>
 
   <!-- Project References -->
