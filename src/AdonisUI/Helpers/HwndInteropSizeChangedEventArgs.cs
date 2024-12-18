@@ -17,7 +17,6 @@ namespace AdonisUI.Helpers
 
             /// <summary>
             /// The window has been minimized.
-
             /// </summary>
             Minimized = 1,
             
