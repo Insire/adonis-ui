@@ -12,7 +12,7 @@ Get started with Adonis UI, a lightweight UI toolkit for WPF applications. Inclu
 
 ## Quick start
 
-1. Reference `AdonisUI` and `AdonisUI.ClassicTheme` in your WPF project. It is available via [NuGet](https://www.nuget.org/packages/AdonisUI.ClassicTheme/) or [manual download](https://github.com/benruehl/adonis-ui/releases). Currently it requires at least .NET 4.5 or .NET Core 3.0.
+1. Reference `AdonisUI` and `AdonisUI.ClassicTheme` in your WPF project. It is available via [NuGet](https://www.nuget.org/packages/AdonisUI.ClassicTheme/) or [manual download](https://github.com/benruehl/adonis-ui/releases). Currently it requires at least .NET 4.6.2 or .NET 8.0.
 2. Add resources to your application in your `App.xaml`:
 
     ```xml
