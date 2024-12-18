@@ -1,11 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+<Project Sdk="Microsoft.NET.Sdk">
   <!-- Build Settings -->
   <PropertyGroup>
-    <TargetFrameworks>net45;netcoreapp3.1;net5.0-windows</TargetFrameworks>
+    <TargetFrameworks>net462;net8.0-windows;net9.0-windows</TargetFrameworks>
     <LangVersion>latest</LangVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <UseWpf>true</UseWpf>
+    <NoWarn>CS1591</NoWarn>
   </PropertyGroup>
 
   <!-- Package metadata -->
@@ -34,12 +35,7 @@
   </PropertyGroup>
 
   <!-- Project References -->
-  <ItemGroup Condition="'$(TargetFramework)' == 'net45'">
-    <Reference Include="PresentationCore" />
-    <Reference Include="PresentationFramework" />
-    <Reference Include="System.Xaml" />
-    <Reference Include="WindowsBase" />
-  </ItemGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\AdonisUI\AdonisUI.csproj" />
   </ItemGroup>

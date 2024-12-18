@@ -1,7 +1,7 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <LangVersion>latest</LangVersion>
     <RootNamespace>AdonisUI.Demo</RootNamespace>
     <StartupObject>AdonisUI.Demo.App</StartupObject>
@@ -26,17 +26,11 @@
     <ApplicationManifest>App.manifest</ApplicationManifest>
     <ApplicationIcon>App.ico</ApplicationIcon>
     <Platforms>AnyCPU;x64;x86</Platforms>
-    <PublishTrimmed>true</PublishTrimmed>
+    <PublishTrimmed>false</PublishTrimmed>
     <PublishReadyToRun>true</PublishReadyToRun>
     <PublishSingleFile>false</PublishSingleFile>
+    <NoWarn>CS1591</NoWarn>
   </PropertyGroup>
-
-  <ItemGroup Condition="'$(TargetFramework)' != 'netcoreapp3.1'">
-    <Reference Include="PresentationCore" />
-    <Reference Include="PresentationFramework" />
-    <Reference Include="System.Xaml" />
-    <Reference Include="WindowsBase" />
-  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\AdonisUI\AdonisUI.csproj" />
