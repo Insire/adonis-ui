@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AdonisUI.Extensions
+﻿namespace AdonisUI.Extensions
 {
     /// <summary>
     /// Values for controlling when to expand scroll bars.

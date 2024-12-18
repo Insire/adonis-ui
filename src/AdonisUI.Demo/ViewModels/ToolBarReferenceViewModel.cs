@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using AdonisUI.Demo.Framework;
+﻿using AdonisUI.Demo.Framework;
 
 namespace AdonisUI.Demo.ViewModels
 {

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AdonisUI.Controls
+﻿namespace AdonisUI.Controls
 {
     /// <summary>
     /// Specifies where a check box is placed inside a message box.

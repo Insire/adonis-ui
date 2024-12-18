@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using AdonisUI.Controls;
 using AdonisUI.Demo.Framework;
 using AdonisUI.Demo.ViewModels;

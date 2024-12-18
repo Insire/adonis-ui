@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using AdonisUI.Demo.Framework;
+﻿using AdonisUI.Demo.Framework;
 using AdonisUI.Demo.ViewModels;
 
 namespace AdonisUI.Demo.Commands
